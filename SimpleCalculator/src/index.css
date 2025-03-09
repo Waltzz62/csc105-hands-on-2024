@@ -1,0 +1,28 @@
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid #646cff;
+}
