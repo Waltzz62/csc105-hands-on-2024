@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: var(--background-color, white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .add-btn {
+    background: #646cff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .add-btn:hover {
+    background: #535bf2;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #b0ff99;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  li.bought {
+    background-color: #88e075;
+  }
+  
+  li.bought span {
+    text-decoration: line-through;
+    color: #333;
+  }
+  
+  .button-group {
+    margin-left: auto; 
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-btn, .remove-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .edit-btn {
+    background-color: orange;
+    color: white;
+  }
+  
+  .remove-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  li.bought .edit-btn {
+    background-color: #c77600;
+  }
+  
+  li.bought .remove-btn {
+    background-color: #b30000;
+  }
+  
+  
+  
+  
+  
